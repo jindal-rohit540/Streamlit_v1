@@ -12,7 +12,7 @@ lr = LinearRegression()
 lr.fit(x,np.array(data['Salary']))
 
 
-st.title("Rohit Jindal ---- Salary Predictor")
+st.title("Rohit Jindal ka 2nd ---- Salary Predictor")
 st.image("data//sal.jpg",width = 800)
 nav = st.sidebar.radio("Navigation",["Home","Prediction","Contribute"])
 if nav == "Home":
